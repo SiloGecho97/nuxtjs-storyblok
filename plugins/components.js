@@ -5,7 +5,11 @@ import Grid from '~/components/Grid.vue'
 import Feature from '~/components/Feature.vue'
 import FeaturedArticles from '~/components/FeaturedArticles.vue'
 import ArticleTeaser from '~/components/ArticleTeaser.vue'
+import Hero from '~/components/Hero.vue'
+import Payment from '~/components/Payment.vue'
 
+Vue.component('payment',Payment)
+Vue.component('hero',Hero)
 Vue.component('page', Page)
 Vue.component('teaser', Teaser)
 Vue.component('grid', Grid)
