@@ -38,7 +38,7 @@ export default {
     // const fullSlug = (context.route.path == '/' || context.route.path == '') ? 'home' : context.route.path
 
     // Load the JSON from the API - loadig the home content (index page)
-    return context.app.$storyapi.get('cdn/stories/se/about', {
+    return context.app.$storyapi.get('cdn/stories/es/about', {
       version: 'draft'
     }).then((res) => {
       return res.data
