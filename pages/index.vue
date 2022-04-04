@@ -22,7 +22,6 @@ export default {
         this.story.content = event.story.content
       }
     })
-    console.log(this.story)
     // Use the bridge to listen the events
     this.$storybridge.on(['published', 'change'], (event) => {
       // window.location.reload()

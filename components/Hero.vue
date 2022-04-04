@@ -12,19 +12,18 @@
       xl:my-28
     "
   >
-    <div class="sm:text-center lg:text-left">
+    <div class="sm:text-center lg:text-center">
       <h1
         class="
           text-4xl
-          tracking-tight
+          tracking-none
           font-extrabold
-          text-gray-900
+          text-gray-800
           sm:text-5xl
           md:text-6xl
         "
       >
         <span class="block xl:inline">{{ blok.headline }}</span>
-        <span class="block text-indigo-600 xl:inline">Play Tech</span>
       </h1>
       <p
         class="
@@ -32,12 +31,13 @@
           text-base text-gray-500
           sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto
           md:mt-5 md:text-xl
-          lg:mx-0
+          lg:mx-auto
+          text-center
         "
       >
         {{blok.description}}
       </p>
-      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+      <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
         <div class="rounded-md shadow">
           <a
             href="#"
@@ -58,7 +58,7 @@
               md:py-4 md:text-lg md:px-10
             "
           >
-            Get started
+            {{blok.more_cta_label}}
           </a>
         </div>
       </div>
